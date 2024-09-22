@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-icon {
+  margin-right: 8px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grouping, .ordering {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
